@@ -97,16 +97,7 @@
     <td>2</td>
   </tr>
   <tr>
-    <td>App de comercio de AR </td>
-    <td><img src="https://user-images.githubusercontent.com/8560750/166763820-c178c82a-4f1f-47fb-9e15-34011bad59f1.jpg" width="100" alt="App de realidad aumentada"/></td>
-    <td>
-      <ul>
-        <li>Dispositivo móvil con sistema operativo Android 8.0 o superior.</li>
-        <li>App de establecimiento.</li>
-        <li>Interactuar con detalles y características de producto.</li>
-      </ul>    
-    </td>
-    <td>2 </td>
+
   </tr>
   <tr>
     <td>ISD1820 </td>
