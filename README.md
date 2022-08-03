@@ -1,4 +1,4 @@
-# Proyecto CapStone UTNG
+# Smart Craft Sales Dolores Hidalgo
 [![Contribuidores][contribuidores-shield]][contributors-url]
 
 ## contenido
