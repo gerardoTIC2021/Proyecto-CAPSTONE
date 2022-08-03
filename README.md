@@ -98,19 +98,14 @@
   </tr>
   <tr>
 
-  </tr>
-  <tr>
-    <td>ISD1820 </td>
-    <td><img src="https://user-images.githubusercontent.com/8560750/166772317-71c55285-568d-478c-aa4a-080df56c719b.jpg" width="100" alt="ISD1820"/></td>
-    <td>
-      <ul>
+
      
 </table>
 
 #### Requerimientos
 |No.  |Requerimiento  |
 |---  |-------------  |
-| 1   |El sistema deberá permitir dar la bienvenida al cliente o visitante a través de lectura de rostro, si la persona es un cliente mediante un Display y/o un repetidor de Voz dará la bienvenida. A su vez, el empleado recibirá una notificación a su dispositivo móvil para su atención.               |
+| 1   |El sistema deberá permitir dar la bienvenida al cliente o visitante a través de lectura de rostro, si la persona es un cliente mediante un Display dará la bienvenida. A su vez, el empleado recibirá una notificación a su dispositivo móvil para su atención.               |
 | 2   |Mediante lectura de código QR a través de dispositivo móvil la persona podrá observar la descripción del producto. |
 | 3   |La persona podrá solicitar la atención del empleado a través de su dispositivo móvil ya sea para muestra del producto o venta del mismo.|
 | 4   |La persona podrá responder la encuesta de salida si fue agradable el servicio al cliente, etc.|
