@@ -115,43 +115,7 @@
 ![image](https://user-images.githubusercontent.com/8560750/166749650-89fba768-4bbc-45c4-93d3-df9e5d08ad4c.png)
 
 
-### Prototipo
 
-
-<!-- Construido con -->
-
-
-<!-- Construido con -->
-### Construido con
-Construido con.
-
-<!-- Iniciando -->
-## Iniciando
-Iniciando.
-
-<!-- Requisitos -->
-### Requisitos
-Requisitos.
-
-<!-- Instalación -->
-### Instalacion
-Instalación.
-
-<!-- Uso -->
-### Uso
-Uso.
-
-## Guias
-Guias.
-
-## contribucion
-Contribucion.
-
-## Licencia
-Licencia.
-
-## Contacto
-Contacto.
 
 ## Participantes
 * [Gerardo Reyna Ibarra]()
