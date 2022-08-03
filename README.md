@@ -104,16 +104,7 @@
     <td><img src="https://user-images.githubusercontent.com/8560750/166772317-71c55285-568d-478c-aa4a-080df56c719b.jpg" width="100" alt="ISD1820"/></td>
     <td>
       <ul>
-        <li>Tipo: Módulo grabador de voz y parlante</li>
-        <li>Dimensiones: 42.87mmx 38.55mm x 11.25mm</li>
-        <li>Voltaje de funcionamiento: 3V a 5V DC</li>
-        <li>Altavoz: 8Ω 0.5 W</li>
-        <li>Bocina de 8ohms a 0.5W</li>
-      </ul>
-    </td>
-    <td>1</td>
-  </tr> 
-
+     
 </table>
 
 #### Requerimientos
