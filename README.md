@@ -1,31 +1,7 @@
 # Smart Craft Sales Dolores Hidalgo
 [![Contribuidores][contribuidores-shield]][contributors-url]
 
-## contenido
-<details>
-  <summary>Tabla contenidos</summary>
-  <ol>
-    <li>
-      <a href="#acerca-del-proyecto">Acerca Del Proyecto</a>
-      <ul>
-        <li><a href="#construido-con">Construido Con</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#iniciando">Iniciando</a>
-      <ul>
-        <li><a href="#requisitos">Prerrequisitos</a></li>
-        <li><a href="#instalacion">Instalación</a></li>
-      </ul>
-    </li>
-    <li><a href="#uso">Uso</a></li>
-    <li><a href="#guias">Guias</a></li>
-    <li><a href="#contribucion">Contribución</a></li>
-    <li><a href="#licencia">licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#participantes">Participantes</a></li>
-  </ol>
-</details>
+
 
 <!-- Acerca del proyecto -->
 ## Acerca del proyecto
@@ -42,13 +18,27 @@
 > Dolores Hidalgo se encuentra en la zona norte del estado de Guanajuato, pocas ciudades del país pueden decir que viven completamente de la artesanía. El centro de  Dolores Hidalgo, Guanajuato, encontrarás calles repletas de todo tipo de objetos artesanales cerámicos. Además de ser cuna de la Independencia Nacional, Dolores Hidalgo es una población fantástica donde innumerables alfareros y ceramistas han hecho de la cerámica de talavera su forma de vida al trabajarla en diversas formas  y tonos multicolores que engalanan al México popular país con un hondo espíritu folclórico.
 > El principal turista de ocio que llega a la Cuna de la Independencia, es de tipo familiar por el potencial que tenemos en el personaje de José Alfredo Jiménez y la cerámica tipo Talavera, pero una de los grandes incovenientes es que el turista dura en la ciudad de uno a dos días y después se van a otras ciudades como Guanajuato, San Miguel de Allende, San Luis de la Paz. Generalmente, los pequeños negocios de artesanías que comercializan los productos de Talavera contratan a personal femenino para el servicio de atención al cliente, pero una de las grandes inquietudes que tienen los empresarios de los estos comercios es usar la tecnología para atrapar al turista e incrementar sus ventas. 
 
-### Objetivo del proyecto: 
-
+### Objetivo general del proyecto: 
 > Impulsar el incremento de ventas de los pequeños negocios que comercializan productos de Talavera y Cerámica mediante el uso de la tecnología del Internet de las Cosas que ayuden a eficientar la atención al cliente y una experiencia agradable en el comercio.
+
+
+### Objetivos específicos: 
+> Mejorar la experiencia del cliente.
+
+> Permitir mostrar comentarios de los clientes inmediatamente después de la experiencia de compra.
+
+> Acortar los tiempos empleados para la atención al cliente.
+
+> Capturar información relevante de un cliente para su atención y aumento de ventas.
+
+> Controlar los espacios de la tienda, mediante luces y aires acondiciona-dos para que el cliente se sienta cómodo en la estancia dentro de la tienda.
+
+
 
 ### Descripción general del proyecto
 
 > Este proyecto consiste generar un prototipo que propone incrementar ventas mediante experiencia de usuario agradables en los comercios de artesanías en la ciudad de Dolores Hidalgo CIN,  a través de un sistema IoT. Consta de sensores que capturan datos del entorno como el rostro del cliente, lectura de QR y realidad aumentada para conocer la descripción y detalles del producto; así como actuadores que responderán para dar la bienvenida al usuario, cuando un usuario solicite atención enviará notificaciones para recibir atención del Usuario.
+> 
 > El dueño del establecimiento podrá observar estadísticas mediante análisis de datos sobre el número de clientes que ingresan al establecimiento, los clientes que lograron realizar la venta y la salida de satisfacción del cliente. 
 
 
@@ -108,18 +98,16 @@
 | 1   |El sistema deberá permitir dar la bienvenida al cliente o visitante a través de lectura de rostro, si la persona es un cliente mediante un Display dará la bienvenida. A su vez, el empleado recibirá una notificación a su dispositivo móvil para su atención.               |
 | 2   |Mediante lectura de código QR a través de dispositivo móvil la persona podrá observar la descripción del producto. |
 | 3   |La persona podrá solicitar la atención del empleado a través de su dispositivo móvil ya sea para muestra del producto o venta del mismo.|
-| 4   |La persona podrá responder la encuesta de salida si fue agradable el servicio al cliente, etc.|
-| 5   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento. Número de visitantes que realizaron compra. Encuesta de satisfacción de salida.  |
+| 4   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento. Número de visitantes que realizaron compra. 
+| 5   |Control de los espacios de la tienda, mediante luces y aires acondicionados para que el cliente se sienta cómodo en la estancia dentro de la tienda. |
 
 #### Diagrama inicial
-![image](https://user-images.githubusercontent.com/8560750/166749650-89fba768-4bbc-45c4-93d3-df9e5d08ad4c.png)
-
-
+![inicial](https://user-images.githubusercontent.com/96089377/182938128-55ef2bd9-fe37-483c-ae94-fe83a36ced5c.png)
 
 
 ## Participantes
 * [Gerardo Reyna Ibarra]()
-* [Anastasio Rodríguez García]()
+* [Anastacio Rodríguez García]()
 * [Gabriel Barrón Rodríguez]()
 
 [contribuidores-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
