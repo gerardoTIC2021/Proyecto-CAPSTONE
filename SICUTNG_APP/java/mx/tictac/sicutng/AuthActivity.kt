@@ -36,6 +36,7 @@ import com.google.firebase.installations.FirebaseInstallations
 import com.google.firebase.messaging.FirebaseMessaging
 import kotlinx.android.synthetic.main.activity_auth.*
 
+// Pantalla de autenticación de usuarios 
 class AuthActivity : AppCompatActivity() {
     private val GOOGLE_SIGN_IN = 100
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,13 +63,13 @@ class AuthActivity : AppCompatActivity() {
         authLayout.visibility = View.VISIBLE
     }
     
-    //Metodo para inicio de sesión
+    //Método para inicio de sesión
     private fun session(){
         // Saving data
         val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
         val email = prefs.getString("email", null)
         val provider = prefs.getString("provider", null)
-
+        //Validaciones
         if(email != null && provider != null){
             authLayout.visibility = View.INVISIBLE
             showHome(email, ProviderType.valueOf(provider))
@@ -76,14 +77,14 @@ class AuthActivity : AppCompatActivity() {
         }
 
     }
-
+    //TODO Cambiar para mandar notificaciones específicas a usuarios o grupos.
     private fun notification(){
 //        Log.i("Token", FirebaseMessaging.getInstance().token.result)
 
 
     }
 
-    
+    //Método para configuración inicial de la pantalla
     private fun setup() {
         title = "Authentication"
         signUpButton.setOnClickListener {
@@ -98,7 +99,8 @@ class AuthActivity : AppCompatActivity() {
                 }
             }
         }
-
+        
+        // Botón de lógin para autenticación de usuarios registrados
         loginButton.setOnClickListener {
             if(emailEditText.text.isNotEmpty()&&passEditText.text.isNotEmpty()){
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(
@@ -112,7 +114,8 @@ class AuthActivity : AppCompatActivity() {
                 }
             }
         }
-
+        
+        //Botón para autenticación con google.
         googleButton.setOnClickListener {
             //Setup
             val googleConf = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -166,7 +169,7 @@ class AuthActivity : AppCompatActivity() {
     }
 */
     
-    // Médodo para autenticar con google.
+    // Método para autenticar con google.
     @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -211,6 +214,7 @@ class AuthActivity : AppCompatActivity() {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }
+        //Lanza un intento a la página de inicio.
         startActivity(homeIntent)
     }
 }
