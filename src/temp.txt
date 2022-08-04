@@ -1,1 +1,0 @@
-python3 /home/gbarron/capstone/src/facecheckMQTT.py  -i "ola" -j "/home/gbarron/capstone/src/my_db/"
