@@ -1,5 +1,12 @@
 package mx.tictac.sicutng
-
+/*
+ * Pantalla de Splash
+ * por: El Profe Tacho
+ * Fecha: 10 de julio de 2022
+ * 
+ * Clase de pantalla de splash para arrancar la aplicación.
+ * Referencia: https://www.youtube.com/watch?v=ksaaMt8Lo6U
+ */
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
