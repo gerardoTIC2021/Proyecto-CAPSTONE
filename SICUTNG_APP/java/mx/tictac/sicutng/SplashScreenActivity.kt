@@ -14,17 +14,20 @@ import android.os.Handler
 
 class SplashScreenActivity : AppCompatActivity() {
 
+    //Valores de inicio, constante para el tiempo de visualización de la pantalla.
     companion object {
         const val TIME_SPLASH_SCREEN = 500L
     }
 
+    //Método de creación del ciclo de vida de la actividad
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
-
+        //Mensaje hacia el método de salida de la pantalla de inicio.
         exitSplashScreen()
     }
-
+    
+    //Método que envia de la pantalla de splash screen a la pantalla de autenticación de usuarios.
     private fun exitSplashScreen() {
         val handler = Handler()
         handler.postDelayed({
