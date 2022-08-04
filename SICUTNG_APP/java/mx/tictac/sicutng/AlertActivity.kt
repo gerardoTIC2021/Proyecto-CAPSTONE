@@ -1,4 +1,13 @@
+/*
+ * Pantalla de Alertas
+ * por: El Profe Tacho
+ * Fecha: 10 de julio de 2022
+ * 
+ * Clase de alertas o solicitudes de atención de los usuarios al encargado de la tienda(solicitud y atención).
+ * Requiere del prototipo de la matrix de leds para desplegar la información.
+ */
 package mx.tictac.sicutng
+
 
 import android.content.Context
 import android.os.Bundle
@@ -21,15 +30,18 @@ import java.net.HttpURLConnection
 import java.net.MalformedURLException
 import java.net.URL
 
-
+// Inicio de la clase 
 class AlertActivity : AppCompatActivity() {
     //val ip = "http://172.16.2.45";
-    private val ip = "http://192.168.1.64"
-    private var email = ""
+    
+    private val ip = "http://192.168.1.64" //Dirección IP interna
+    private var email = "" //Identificación de usuario
 
 
+    //Ciclo de vida iniciado de la actividad de android
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //Carga de layout 
         setContentView(R.layout.activity_alert)
         setup()
 
@@ -41,10 +53,12 @@ class AlertActivity : AppCompatActivity() {
     }
 
     private fun setup() {
+        // Politica para acceso al permiso de Internet
         val policy: ThreadPolicy =
             ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
-
+        
+        //Boton de notificación
         notifyButton.setOnClickListener {
             val mainExecutor = ContextCompat.getMainExecutor(this)
             mainExecutor.execute{
@@ -78,6 +92,7 @@ class AlertActivity : AppCompatActivity() {
 
         }
 
+        //Boton de mensaje 
         messButton.setOnClickListener {
             val mainExecutor = ContextCompat.getMainExecutor(this)
             mainExecutor.execute{
@@ -105,6 +120,7 @@ class AlertActivity : AppCompatActivity() {
         }
     }
 
+    //Método para actualizar texto del estatus desplegado en pantalla.
     private fun updateStatusView(flag: Int) {
         if (flag == 1) {
             this.statusDisplay.text = getString(R.string.notification)
@@ -113,6 +129,7 @@ class AlertActivity : AppCompatActivity() {
         }
     }
 
+    //Modifica el objeto json para cambiar el estatus y el usuario para mostrar en el LED Matrix.
     fun rawJSON() {
 
         // Create JSON using JSONObject
