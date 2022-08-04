@@ -5,7 +5,8 @@ package mx.tictac.sicutng.notification
  * Fecha: 10 de julio de 2022
  * 
  * Representación de datos estáticos de las clase para poder acceder a la base de datos de firebase
- *
+ * Referencias:
+ * https://www.youtube.com/watch?v=kZJhB7LlcOU
  */
 
 class Constants {
