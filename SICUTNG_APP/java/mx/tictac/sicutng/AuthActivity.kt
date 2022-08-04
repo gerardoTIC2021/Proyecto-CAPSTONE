@@ -1,5 +1,18 @@
 package mx.tictac.sicutng
 
+/*
+ * Pantalla de Autenticación de usuarios
+ * por: El Profe Tacho
+ * Fecha: 10 de julio de 2022
+ * 
+ * Clase de alertas o solicitudes de atención de los usuarios al encargado de la tienda(solicitud y atención).
+ * Requiere del prototipo de la matrix de leds para desplegar la información.
+ * Referencias: 
+ * https://www.youtube.com/watch?v=xjsgRe7FTCU
+ * https://www.youtube.com/watch?v=IiuKAmgRYeM
+ * https://www.youtube.com/watch?v=dpURgJ4HkMk
+ * https://www.youtube.com/watch?v=BQaxPwZWboA
+ */
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
@@ -44,10 +57,13 @@ class AuthActivity : AppCompatActivity() {
         session()
     }
 
+    //Hacer visible la pantalla de autenticación
     override fun onStart() {
         super.onStart()
         authLayout.visibility = View.VISIBLE
     }
+    
+    //Metodo para inicio de sesión
     private fun session(){
         // Saving data
         val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
@@ -68,6 +84,7 @@ class AuthActivity : AppCompatActivity() {
 
     }
 
+    
     private fun setup() {
         title = "Authentication"
         signUpButton.setOnClickListener {
@@ -119,7 +136,7 @@ class AuthActivity : AppCompatActivity() {
     }
 
 
-/*
+/* TODO: Actualizar el método obsoleto adaptando este método.
     private fun onActivityResult(requestCode: Int, result: ActivityResult) {
         if(result.resultCode == Activity.RESULT_OK) {
             val intent = result.data
@@ -149,7 +166,8 @@ class AuthActivity : AppCompatActivity() {
         }
     }
 */
-
+    
+    // Médodo para autenticar con google.
     @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -178,7 +196,7 @@ class AuthActivity : AppCompatActivity() {
 
 
 
-
+    // Método que manda un mensaje de error cuando no se pudo autenticar.
     private fun showAlert(){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
@@ -188,6 +206,7 @@ class AuthActivity : AppCompatActivity() {
         dialog.show()
     }
 
+    //Método para mostrar la pantalla de inicio de la aplicación enviando email y proveedor.
     private fun showHome(email: String, provider: ProviderType){
         val homeIntent = Intent(this, HomeActivity::class.java).apply {
             putExtra("email", email)
