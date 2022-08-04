@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".control.ControlActivity"
+    android:background="@color/purple_200">
+    <ImageView
+        android:id="@+id/imageButton5"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:srcCompat="@drawable/button3"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ToggleButton
+        android:id="@+id/pasilloButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton5"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ToggleButton
+        android:id="@+id/entradaButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button1"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button2" />
+
+    <ToggleButton
+        android:id="@+id/salidaButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@drawable/button5" />
+
+    <ToggleButton
+        android:id="@+id/cajasButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton7"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@drawable/button7"
+        tools:ignore="ImageContrastCheck" />
+
+    <ToggleButton
+        android:id="@+id/lampButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton7"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageButton8"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="@drawable/button8" />
+
+    <ToggleButton
+        android:id="@+id/airButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        tools:ignore="TouchTargetSizeCheck" />
+    <ImageView
+        android:id="@+id/imageButton6"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/control"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:srcCompat="@drawable/button6" />
+
+    <ToggleButton
+        android:id="@+id/almacenButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        tools:ignore="TouchTargetSizeCheck" />
+    <ImageView
+        android:id="@+id/imageButton4"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/auth_title"
+        android:scaleType="centerInside"
+        android:tintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:srcCompat="@drawable/button4" />
+
+    <ToggleButton
+        android:id="@+id/banoButton"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_toggle_theme"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:ignore="TouchTargetSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
