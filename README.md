@@ -43,17 +43,18 @@
 > El principal turista de ocio que llega a la Cuna de la Independencia, es de tipo familiar por el potencial que tenemos en el personaje de José Alfredo Jiménez y la cerámica tipo Talavera, pero una de los grandes incovenientes es que el turista dura en la ciudad de uno a dos días y después se van a otras ciudades como Guanajuato, San Miguel de Allende, San Luis de la Paz. Generalmente, los pequeños negocios de artesanías que comercializan los productos de Talavera contratan a personal femenino para el servicio de atención al cliente, pero una de las grandes inquietudes que tienen los empresarios de los estos comercios es usar la tecnología para atrapar al turista e incrementar sus ventas. 
 
 ### Objetivo general del proyecto: 
+> Impulsar el incremento de ventas de los pequeños negocios que comercializan productos de Talavera y Cerámica mediante el uso de la tecnología del Internet de las Cosas que ayuden a eficientar la atención al cliente y una experiencia agradable en el comercio.
 
-> Mejorar la experiencia del cliente.
-Permitir mostrar comentarios de los clientes inmediatamente después de la experiencia de compra.
-Acortar los tiempos empleados para la atención al cliente.
-Captura de información relevante de un cliente para su atención y aumento de ventas.
-Automatización de los espacios de la tienda, mediante luces y aires acondiciona-dos para que el cliente se sienta cómodo en la estancia dentro de la tienda.
 
 
 ### Objetivos específicos: 
+> Mejorar la experiencia del cliente.
+> Permitir mostrar comentarios de los clientes inmediatamente después de la experiencia de compra.
+> Acortar los tiempos empleados para la atención al cliente.
+> Captura de información relevante de un cliente para su atención y aumento de ventas.
+> Automatización de los espacios de la tienda, mediante luces y aires acondiciona-dos para que el cliente se sienta cómodo en la estancia dentro de la tienda.
 
-> Impulsar el incremento de ventas de los pequeños negocios que comercializan productos de Talavera y Cerámica mediante el uso de la tecnología del Internet de las Cosas que ayuden a eficientar la atención al cliente y una experiencia agradable en el comercio.
+
 
 ### Descripción general del proyecto
 
