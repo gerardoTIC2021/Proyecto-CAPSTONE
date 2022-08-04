@@ -1,31 +1,7 @@
 # Smart Craft Sales Dolores Hidalgo
 [![Contribuidores][contribuidores-shield]][contributors-url]
 
-## Contenido
-<details>
-  <summary>Tabla contenidos</summary>
-  <ol>
-    <li>
-      <a href="#acerca-del-proyecto">Acerca Del Proyecto</a>
-      <ul>
-        <li><a href="#construido-con">Construido Con</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#iniciando">Iniciando</a>
-      <ul>
-        <li><a href="#requisitos">Prerrequisitos</a></li>
-        <li><a href="#instalacion">Instalación</a></li>
-      </ul>
-    </li>
-    <li><a href="#uso">Uso</a></li>
-    <li><a href="#guias">Guias</a></li>
-    <li><a href="#contribucion">Contribución</a></li>
-    <li><a href="#licencia">licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#participantes">Participantes</a></li>
-  </ol>
-</details>
+
 
 <!-- Acerca del proyecto -->
 ## Acerca del proyecto
@@ -46,19 +22,23 @@
 > Impulsar el incremento de ventas de los pequeños negocios que comercializan productos de Talavera y Cerámica mediante el uso de la tecnología del Internet de las Cosas que ayuden a eficientar la atención al cliente y una experiencia agradable en el comercio.
 
 
-
 ### Objetivos específicos: 
 > Mejorar la experiencia del cliente.
+
 > Permitir mostrar comentarios de los clientes inmediatamente después de la experiencia de compra.
+
 > Acortar los tiempos empleados para la atención al cliente.
-> Captura de información relevante de un cliente para su atención y aumento de ventas.
-> Automatización de los espacios de la tienda, mediante luces y aires acondiciona-dos para que el cliente se sienta cómodo en la estancia dentro de la tienda.
+
+> Capturar información relevante de un cliente para su atención y aumento de ventas.
+
+> Controlar los espacios de la tienda, mediante luces y aires acondiciona-dos para que el cliente se sienta cómodo en la estancia dentro de la tienda.
 
 
 
 ### Descripción general del proyecto
 
 > Este proyecto consiste generar un prototipo que propone incrementar ventas mediante experiencia de usuario agradables en los comercios de artesanías en la ciudad de Dolores Hidalgo CIN,  a través de un sistema IoT. Consta de sensores que capturan datos del entorno como el rostro del cliente, lectura de QR y realidad aumentada para conocer la descripción y detalles del producto; así como actuadores que responderán para dar la bienvenida al usuario, cuando un usuario solicite atención enviará notificaciones para recibir atención del Usuario.
+> 
 > El dueño del establecimiento podrá observar estadísticas mediante análisis de datos sobre el número de clientes que ingresan al establecimiento, los clientes que lograron realizar la venta y la salida de satisfacción del cliente. 
 
 
