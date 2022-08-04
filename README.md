@@ -108,8 +108,7 @@
 | 1   |El sistema deberá permitir dar la bienvenida al cliente o visitante a través de lectura de rostro, si la persona es un cliente mediante un Display dará la bienvenida. A su vez, el empleado recibirá una notificación a su dispositivo móvil para su atención.               |
 | 2   |Mediante lectura de código QR a través de dispositivo móvil la persona podrá observar la descripción del producto. |
 | 3   |La persona podrá solicitar la atención del empleado a través de su dispositivo móvil ya sea para muestra del producto o venta del mismo.|
-| 4   |La persona podrá responder la encuesta de salida si fue agradable el servicio al cliente, etc.|
-| 5   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento. Número de visitantes que realizaron compra. Encuesta de satisfacción de salida.  |
+| 4   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento. Número de visitantes que realizaron compra. 
 
 #### Diagrama inicial
 ![image](https://user-images.githubusercontent.com/8560750/166749650-89fba768-4bbc-45c4-93d3-df9e5d08ad4c.png)
