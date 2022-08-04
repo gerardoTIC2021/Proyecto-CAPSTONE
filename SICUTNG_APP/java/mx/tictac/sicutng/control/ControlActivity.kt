@@ -1,5 +1,14 @@
 package mx.tictac.sicutng.control
 
+/*
+ * Pantalla de Control de dispositivos de la tienda.
+ * por: El Profe Tacho
+ * Fecha: 10 de julio de 2022
+ * 
+ * Clase de alertas o solicitudes de atención de los usuarios al encargado de la tienda(solicitud y atención).
+ * Requiere del prototipo de la matrix de leds para desplegar la información.
+ */
+
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,12 +22,16 @@ import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_control.*
 import mx.tictac.sicutng.R
 
+//Controla Dispositivos de acuerdo a datos de una base de datos en tiempo real de Firebase.
 class ControlActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_control)
+        //Definición de la base de datos
         val database = Firebase.database
+        //Referencia de la base de datos
         val databaseReference = database.reference
+        //Variables de estatus de cada uno de los dispositivos o secciones de la tienda.
         var entrada = 0
         var salida = 0
         var pasillo = 0
@@ -29,6 +42,7 @@ class ControlActivity : AppCompatActivity() {
         var ventilador = 0
 
 
+      // TODO Para cambiar a un Mapa, para ahorrar lineas de código 
       //  var status = mapOf("entrada" to 0,"salida" to 0, "pasillo" to 0, "banio" to 0,"cajas" to 0,
       //      "almacen" to 0, "lampara" to 0, "ventilador" to 0)
 
@@ -51,6 +65,8 @@ class ControlActivity : AppCompatActivity() {
                     }
 
                 }*/
+                
+                //Cambiar el valor de la sección de entrada dependiendo del valor del Boton Toggle.
                 entrada = dataSnapshot.child("entrada").getValue<Int>()!!
                 if (entrada == 0) {
                     entradaButton.isChecked = false
@@ -59,7 +75,8 @@ class ControlActivity : AppCompatActivity() {
                     entradaButton.isChecked = true
                     entrada = 0
                 }
-
+                
+                //Datos y condicional para manejar el valor de la sección de salida dependiendo del valor del Boton Toggle.
                 salida = dataSnapshot.child("salida").getValue<Int>()!!
                 if (salida == 0) {
                     salidaButton.isChecked = false
@@ -68,7 +85,8 @@ class ControlActivity : AppCompatActivity() {
                     salidaButton.isChecked = true
                     salida = 0
                 }
-
+                
+                //Datos y condicional para manejar el valor de la sección de pasillo dependiendo del valor del Boton Toggle.
                 pasillo = dataSnapshot.child("pasillo").getValue<Int>()!!
                 if (pasillo == 0) {
                     pasilloButton.isChecked = false
@@ -78,6 +96,7 @@ class ControlActivity : AppCompatActivity() {
                     pasillo = 0
                 }
 
+                //Datos y condicional para manejar el valor de la sección de baños dependiendo del valor del Boton Toggle.
                 banio = dataSnapshot.child("banio").getValue<Int>()!!
                 if (banio == 0) {
                     banoButton.isChecked = false
@@ -86,7 +105,8 @@ class ControlActivity : AppCompatActivity() {
                     banoButton.isChecked = true
                     banio = 0
                 }
-
+                
+                //Datos y condicional para manejar el valor de la sección de cobro dependiendo del valor del Boton Toggle.
                 cajas = dataSnapshot.child("cajas").getValue<Int>()!!
                 if (cajas == 0) {
                     cajasButton.isChecked = false
@@ -96,6 +116,7 @@ class ControlActivity : AppCompatActivity() {
                     cajas = 0
                 }
 
+                //Datos y condicional para manejar el valor de la sección de almacen dependiendo del valor del Boton Toggle.
                 almacen = dataSnapshot.child("almacen").getValue<Int>()!!
                 if (almacen == 0) {
                     almacenButton.isChecked = false
@@ -104,7 +125,8 @@ class ControlActivity : AppCompatActivity() {
                     almacenButton.isChecked = true
                     almacen = 0
                 }
-
+                
+                //Datos y condicional para manejar el valor de la lampara dependiendo del valor del Boton Toggle.
                 lampara = dataSnapshot.child("lampara").getValue<Int>()!!
                 if (lampara == 0) {
                     lampButton.isChecked = false
@@ -113,7 +135,8 @@ class ControlActivity : AppCompatActivity() {
                     lampButton.isChecked = true
                     lampara = 0
                 }
-
+                
+                //Datos y condicional para manejar el valor del ventilador dependiendo del valor del Boton Toggle.
                 ventilador = dataSnapshot.child("ventilador").getValue<Int>()!!
                 if (ventilador == 0) {
                     airButton.isChecked = false
@@ -129,6 +152,7 @@ class ControlActivity : AppCompatActivity() {
             }
         })
 
+        //Evento del cambio en el Boton de Entrada
         entradaButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("entrada").setValue(entrada)
@@ -136,7 +160,8 @@ class ControlActivity : AppCompatActivity() {
                 databaseReference.child("entrada").setValue(0)
             }
         }
-
+        
+        //Evento del cambio en el Boton de Salida
         salidaButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("salida").setValue(salida)
@@ -144,6 +169,8 @@ class ControlActivity : AppCompatActivity() {
                 databaseReference.child("salida").setValue(0)
             }
         }
+        
+        //Evento del cambio en el Boton de Pasillo
         pasilloButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("pasillo").setValue(pasillo)
@@ -152,6 +179,7 @@ class ControlActivity : AppCompatActivity() {
             }
         }
 
+        //Evento del cambio en el Boton de Baños
         banoButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("banio").setValue(banio)
@@ -160,6 +188,7 @@ class ControlActivity : AppCompatActivity() {
             }
         }
 
+        //Evento del cambio en el Boton de Cajas
         cajasButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("cajas").setValue(cajas)
@@ -168,6 +197,7 @@ class ControlActivity : AppCompatActivity() {
             }
         }
 
+        //Evento del cambio en el Boton de Almacen
         almacenButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("almacen").setValue(almacen)
@@ -176,6 +206,7 @@ class ControlActivity : AppCompatActivity() {
             }
         }
 
+        //Evento del cambio en el Boton de Lampara
         lampButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("lampara").setValue(lampara)
@@ -184,6 +215,7 @@ class ControlActivity : AppCompatActivity() {
             }
         }
 
+        //Evento del cambio en el Boton de Ventilador
         airButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
                 databaseReference.child("ventilador").setValue(ventilador)
