@@ -1,7 +1,7 @@
 # Smart Craft Sales Dolores Hidalgo
 [![Contribuidores][contribuidores-shield]][contributors-url]
 
-## contenido
+## Contenido
 <details>
   <summary>Tabla contenidos</summary>
   <ol>
@@ -109,16 +109,15 @@
 | 2   |Mediante lectura de código QR a través de dispositivo móvil la persona podrá observar la descripción del producto. |
 | 3   |La persona podrá solicitar la atención del empleado a través de su dispositivo móvil ya sea para muestra del producto o venta del mismo.|
 | 4   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento. Número de visitantes que realizaron compra. 
+| 5   |Control de los espacios de la tienda, mediante luces y aires acondicionados para que el cliente se sienta cómodo en la estancia dentro de la tienda. |
 
 #### Diagrama inicial
-![image](https://user-images.githubusercontent.com/8560750/166749650-89fba768-4bbc-45c4-93d3-df9e5d08ad4c.png)
-
-
+![inicial](https://user-images.githubusercontent.com/96089377/182938128-55ef2bd9-fe37-483c-ae94-fe83a36ced5c.png)
 
 
 ## Participantes
 * [Gerardo Reyna Ibarra]()
-* [Anastasio Rodríguez García]()
+* [Anastacio Rodríguez García]()
 * [Gabriel Barrón Rodríguez]()
 
 [contribuidores-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
