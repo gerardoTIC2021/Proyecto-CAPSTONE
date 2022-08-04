@@ -100,7 +100,7 @@ class AuthActivity : AppCompatActivity() {
         googleButton.setOnClickListener {
             //Setup
             val googleConf = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("811978808003-9ckilc17trvhinqqrq02caon1mbkotsu.apps.googleusercontent.com")
+                .requestIdToken("TYPE_YOUR_TOKEN")
                 .requestEmail()
                 .build()
             val googleClient = GoogleSignIn.getClient(this, googleConf)
