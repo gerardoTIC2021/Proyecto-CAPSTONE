@@ -52,6 +52,7 @@ class AlertActivity : AppCompatActivity() {
 
     }
 
+    //Configuraciones iniciales de la pantalla.
     private fun setup() {
         // Politica para acceso al permiso de Internet
         val policy: ThreadPolicy =
@@ -63,7 +64,9 @@ class AlertActivity : AppCompatActivity() {
             val mainExecutor = ContextCompat.getMainExecutor(this)
             mainExecutor.execute{
                 try {
-                    /*val url = URL("$ip/on")
+                    /*
+                    TODO: Quitar si los cambios para manejo de json son mejores que esta implementación
+                    val url = URL("$ip/on")
                     val urlConnection = url.openConnection()
                     val inputStream = BufferedInputStream(urlConnection.getInputStream())
 
