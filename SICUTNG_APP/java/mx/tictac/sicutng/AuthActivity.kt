@@ -5,8 +5,7 @@ package mx.tictac.sicutng
  * por: El Profe Tacho
  * Fecha: 10 de julio de 2022
  * 
- * Clase de alertas o solicitudes de atención de los usuarios al encargado de la tienda(solicitud y atención).
- * Requiere del prototipo de la matrix de leds para desplegar la información.
+ * Clase de autenticación se usuarios en las dos opciones disponibles al momento registro e inicio de sesión o autentiación con google mail.
  * Referencias: 
  * https://www.youtube.com/watch?v=xjsgRe7FTCU
  * https://www.youtube.com/watch?v=IiuKAmgRYeM
