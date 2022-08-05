@@ -1,0 +1,71 @@
+esphome:
+  name: mystore
+
+esp32:
+  board: esp32doit-devkit-v1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  password: ""
+
+wifi:
+  ssid: "Tu_SSID"
+  password: "TU_PASSWORD"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Mystore Fallback Hotspot"
+    password: "lolr0HamWHgS"
+
+captive_portal:
+    
+# Example configuration entry
+switch:
+  - platform: gpio
+    pin: 32
+    name: "Luz de entrada"
+    inverted: true
+
+  - platform: gpio
+    pin: 33
+    name: "Luz de salida"
+    inverted: true
+
+  - platform: gpio
+    pin: 25
+    name: "Luz de Pasillo"
+    inverted: true
+
+  - platform: gpio
+    pin: 27
+    name: "Luz de los baños"
+    inverted: true
+
+  - platform: gpio
+    pin: 26
+    name: "Luz de área de cobro"
+    inverted: true
+
+  - platform: gpio
+    pin: 14
+    name: "Luz de almacen"
+    inverted: true
+
+  - platform: gpio
+    pin: 12
+    name: "Ventilador"
+    inverted: true
+
+  - platform: gpio
+    pin: 13
+    name: "Lampara del Patrón"
+    inverted: true
+
