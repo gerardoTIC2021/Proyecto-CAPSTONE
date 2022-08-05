@@ -9,6 +9,9 @@
 ### Nombre del proyecto
 **Smart Craft Sales Dolores Hidalgo**
 
+### Vídeo
+[![Video](https://img.youtube.com/vi/XRlXR2ARx9Q/3.jpg)](https://www.youtube.com/watch?v=XRlXR2ARx9Q)
+
 ### Justificación del proyecto
 
 > El mejor servicio al cliente que podemos tener, es no tener la necesidad de usar el servicio al cliente.
