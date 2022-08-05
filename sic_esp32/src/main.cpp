@@ -1,3 +1,29 @@
+/*
+ * por: El Profe Tacho
+ * Fecha: 10 de julio de 2022
+ * 
+ * Aplicación de la ESP32 que controla dispositivos fisicos, display de Matriz de 8x64, atención de clientes, fecha y hora en tiempo real, temperatura 
+ * y humedad con registros en tiempo real.
+ * (Algunas referencias y comentarios estan en ingles debido a que se comenzo con ese idioma se unificaran en actualizaciones) 
+ * Componentes de Hardware
+ *  - Modulo Matriz Led Max7219 Para Arduino 4 Módulos Rojo - 2 unidades
+ *  - Nodemcu Esp32 Devkit V1 D0wdq6 Wifi Bluetooth 240mhz Ch9102x - 2 unidades
+ *  - Cables Jumpers Dupont H-h, M-m, H-m 20cm 30 Pzas. Arduino - 1 unidad
+ *  - Fuente Para Protoboard Mb102 5 Y 3.3v - 1 unidad
+ *  - Base Shield Esp32 Esp32s Wifi Con Regulador 5v 2a - 1 unidad
+ *  - Sensor Temperatura Y Humedad Dht11
+ *  - Cargadores 5V - 2 Unidades
+ *  - Cables Microusb Android Datos - 3 Unidades
+ * DEPENDENCIAS ESP32: 
+ *  - esp32-led-matrix-master
+ *  - beegee-tokyo/DHT sensor library for ESPx@^1.18
+ *  - mobizt/Firebase Arduino Client Library for ESP8266 and ESP32@^4.0.0
+ *  - gypsyrobot/MusicBuzzer@^1.0.0
+ *  - lbernstone/Tone32@^1.0.0
+ *  - bblanchon/ArduinoJson@^6.19.4
+ * 
+ */
+
 //Libraries WiFi
 #if defined(ESP32)
   #include <WiFi.h>
@@ -105,6 +131,7 @@ char date[80];
 //Object to manages json
 DynamicJsonDocument doc(1024);
 
+//Función para imprimir el horario y fechas actuales 
 const char* printLocalTime()
 {
   struct tm timeinfo;
@@ -212,7 +239,7 @@ void setupDHT(){
   dhtSensor.setup(DHT_PIN, DHTesp::DHT11);
 }
 
-
+//Método de configuración y puesta en marcha de la funcionalidad de hora y fecha actuales
 void setupTime(){
 // set notification call-back function
   sntp_set_time_sync_notification_cb( timeavailable );
@@ -276,7 +303,7 @@ void dhtDataFirebase(){
   Serial.println("---");
 
 
-
+  //Actualización de los datos para firebase 
   if (Firebase.ready() && signupOK && (millis() - sendDataPrevMillis > 15000 || sendDataPrevMillis == 0)){
     sendDataPrevMillis = millis();
     // Write an Int number on the database path test/int
@@ -443,7 +470,7 @@ void setup() {
 }
 
 
-//
+//Método que se ejecuta repetidamente.
 void loop() {
 
   //Relay working
