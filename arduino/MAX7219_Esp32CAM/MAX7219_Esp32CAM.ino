@@ -1,6 +1,6 @@
  /*
  * Conexión MAX7219 con ESP32CAM
- * por: Anastasio Rodrìguez Garcia, Gabriel Barròn Rodrìguez, Gerardo Reyna Ibarra
+ * por: Anastacio Rodrìguez Garcia, Gabriel Barròn Rodrìguez, Gerardo Reyna Ibarra
  * Fecha: 11 de julio de 2022
  * 
  * Este programa se conecta a una red Wifi mediante las credenciales de la propia red
