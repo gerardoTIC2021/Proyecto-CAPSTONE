@@ -4,7 +4,7 @@ package mx.tictac.sicutng.notification
  * por: El Profe Tacho
  * Fecha: 10 de julio de 2022
  * 
- *  Definición de datos estáticos para el uso de notificaciones en firebase, con metodos de Tokens y recepción de notificaciones.
+ * Pantalla de notificaciones para envio a los tenderos especificos.
  * Referencias:
  * https://es.linkedin.com/learning/desarrollo-android-esencial
  * https://www.youtube.com/watch?v=kZJhB7LlcOU
