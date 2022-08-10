@@ -58,30 +58,40 @@
   <tr>
     <td>ESP32 Cam</td>
     <td>
-    <img src="https://user-images.githubusercontent.com/36056832/165996397-e9527b13-6ad4-4e73-a732-7721e0ffac59.png"  alt="ESP32 Cam" width="100"/>
+    <img src="https://user-images.githubusercontent.com/36056832/165996397-e9527b13-6ad4-4e73-a732-7721e0ffac59.png" alt="ESP32 Cam" width="100"/>
     </td>
     <td><ul><li>Voltaje: 5 V<li>CPU de 32 bits de doble núcleo de baja potencia para procesadores de aplicaciones<li>Frecuencia principal de hasta 240 MHz<li>Potencia de cálculo de hasta 600 DMIPS<li>SRAM integrado de 520 KB<li>PSRAM externo de 4 M<li>Es ideal para interfaces como: UART. SPI. I2C. PWM. ADC. DAC<li>Soporta cámaras OV2640 y OV7670 (flash incorporado)<li>Apoyo imagen WiFi subir<li>Apoyo TF tarjeta</ul></td>
     <td>1</td>
   </tr> 
   <tr>
     <td>MAX7219 Led Matriz 32x8</td>
-    <td><img src="https://user-images.githubusercontent.com/96089377/183990356-c8af22c9-a9c9-4168-8eb7-ac1756c264e7.jpg" alt="Lcd Display" width="100"/></td>
+    <td><img src="https://user-images.githubusercontent.com/96089377/183990356-c8af22c9-a9c9-4168-8eb7-ac1756c264e7.jpg" alt="MAX7219 Led Matriz 32x8" width="100"/></td>
     <td>
-      <ul>
-        <li>Voltaje: 5 V</li>
-        <li>Matriz de LED: 32 x 8 </li>
-        <li>Corriente: 320 mA (máximo 2A)</li>
-        <li>Color del LED: Rojo</li>
-        <li>Tamaño de la matriz: 32 x 8 Leds</li>
-        <li>Cable: 20 cm (aproximadamente</li>
-        <li>Dimensiones: 128 x 32 x 13 mm</li>
+      <ul><li>Voltaje: 5 V<li>Matriz de LED: 32 x 8<li>Corriente: 320 mA (máximo 2A)<li>Color del LED: Rojo<li>Tamaño de la matriz: 32 x 8 Leds<li>Cable: 20 cm (aproximadamente<li>Dimensiones: 128 x 32 x 13 mm</li>
       </ul>
     </td>
-    <td>1</td>
+    <td>2</td>
   </tr> 
   <tr>
-    <td>Lector QR </td>
-    <td><img src="https://user-images.githubusercontent.com/8560750/166768412-b0cddffc-1a08-49cf-a9d5-4d46b3501678.jpg" width="100" alt="Lector de código QR"/> </td>
+    <td>Módulo Relay 8CH 5VDC</td>
+    <td>
+    <img src="https://user-images.githubusercontent.com/96089377/183992788-099d6bd9-e0dd-47a3-8463-7c5eb33feadc.jpg" width="100" alt="Módulo Relay 8CH 5VDC" width="100"/>
+    </td>
+    <td>
+      <ul>
+        <li>Voltaje de Operación: 5V DC</li>
+        <li>Señal de Control: TTL (3.3V o 5V)</li>
+        <li>Modelo Relay: SRD-05VDC-SL-C</li>
+        <li>Capacidad máx: 10A/250VAC, 10A/30VDC</li>
+        <li>Corriente máx: 10A (NO), 5A (NC)</li>
+      </ul>
+      </td>
+    <td>1</td>
+      </tr> 
+  <tr>
+   <td>Lector QR </td>
+    <td><img src="https://user-images.githubusercontent.com/8560750/166768412-b0cddffc-1a08-49cf-a9d5-4d46b3501678.jpg" width="100" alt="Lector de código QR" width="100"/> 
+    </td>
     <td>
       <ul>
         <li>Dispositivo móvil con sistema operativo Android 8.0 o superior.</li>
@@ -90,7 +100,7 @@
       </ul>
       </td>
     <td>2</td>
-  </tr>
+     </tr>
   <tr>
 
 
