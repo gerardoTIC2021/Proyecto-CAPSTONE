@@ -44,7 +44,7 @@
 ### Material de uso:
 <table> <tr> <th>Componente</th><th>Imagen</th><th>Descripción</th><th>Cantidad</th></tr>
    <tr>
-    <td>Raspberry Pi 4</td>
+   <td>Raspberry Pi 4</td>
     <td>
     <img src="https://user-images.githubusercontent.com/36056832/165995675-da53df0d-9c67-46af-94e3-22f30ad2aa4d.png" alt="Raspberry Pi 4" width="100"/>
     </td>
@@ -111,6 +111,8 @@
       </td>
     <td>1</td>
      </tr>
+      </tr>
+      </tr> 
       </tr>
     </table>
     
