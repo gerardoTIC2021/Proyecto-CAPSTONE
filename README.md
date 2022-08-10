@@ -64,7 +64,7 @@
     <td>1</td>
   </tr> 
   <tr>
-    <td>Display LCD 16x2</td>
+    <td>MAX7219 Led Matriz 32x8</td>
     <td><img src="https://user-images.githubusercontent.com/8560750/166756741-813b8a4a-d952-4e20-aa89-b7699ffeb30d.jpg" alt="Lcd Display" width="100"/></td>
     <td>
       <ul>
