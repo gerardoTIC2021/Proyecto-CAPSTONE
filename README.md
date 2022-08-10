@@ -65,7 +65,7 @@
   </tr> 
   <tr>
     <td>MAX7219 Led Matriz 32x8</td>
-    <td><img src="https://user-images.githubusercontent.com/8560750/166756741-813b8a4a-d952-4e20-aa89-b7699ffeb30d.jpg" alt="Lcd Display" width="100"/></td>
+    <td><img src="https://user-images.githubusercontent.com/96089377/183990356-c8af22c9-a9c9-4168-8eb7-ac1756c264e7.jpg" alt="Lcd Display" width="100"/></td>
     <td>
       <ul>
         <li>Voltaje: 5 V</li>
