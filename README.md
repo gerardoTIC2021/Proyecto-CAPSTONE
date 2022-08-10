@@ -69,10 +69,12 @@
     <td>
       <ul>
         <li>Voltaje: 5 V</li>
-        <li>Un pin de selección de registro (RS) que controla en qué parte de la memoria de la pantalla LCD está escribiendo datos. </li>
-        <li>Un pin de lectura/escritura (R/W) que selecciona el modo de lectura o el modo de escritura</li>
-        <li>Un pin Habilitar que permite escribir en los registros</li>
-        <li>8 pines de datos (D0 -D7) . Los estados de estos pines (alto o bajo) son los bits que estás escribiendo en un registro cuando escribes, o los valores que estás leyendo cuando lees,</li>
+        <li>Matriz de LED: 32 x 8 </li>
+        <li>Corriente: 320 mA (máximo 2A)</li>
+        <li>Color del LED: Rojo</li>
+        <li>Tamaño de la matriz: 32 x 8 Leds</li>
+        <li>Cable: 20 cm (aproximadamente</li>
+        <li>Dimensiones: 128 x 32 x 13 mm</li>
       </ul>
     </td>
     <td>1</td>
