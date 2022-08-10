@@ -1,7 +1,4 @@
 # Smart Craft Sales Dolores Hidalgo
-[![Contribuidores][contribuidores-shield]][contributors-url]
-
-
 
 <!-- Acerca del proyecto -->
 ## Acerca del proyecto
@@ -44,10 +41,9 @@
 > 
 > El dueño del establecimiento podrá observar estadísticas mediante análisis de datos sobre el número de clientes que ingresan al establecimiento, los clientes que lograron realizar la venta y la salida de satisfacción del cliente. 
 
-
 ### Material de uso:
 <table> <tr> <th>Componente</th><th>Imagen</th><th>Descripción</th><th>Cantidad</th></tr>
-  <tr>
+   <tr>
     <td>Raspberry Pi 4</td>
     <td>
     <img src="https://user-images.githubusercontent.com/36056832/165995675-da53df0d-9c67-46af-94e3-22f30ad2aa4d.png" alt="Raspberry Pi 4" width="100"/>
@@ -67,7 +63,7 @@
     <td>MAX7219 Led Matriz 32x8</td>
     <td><img src="https://user-images.githubusercontent.com/96089377/183990356-c8af22c9-a9c9-4168-8eb7-ac1756c264e7.jpg" alt="MAX7219 Led Matriz 32x8" width="100"/></td>
     <td>
-      <ul><li>Voltaje: 5 V<li>Matriz de LED: 32 x 8<li>Corriente: 320 mA (máximo 2A)<li>Color del LED: Rojo<li>Tamaño de la matriz: 32 x 8 Leds<li>Cable: 20 cm (aproximadamente<li>Dimensiones: 128 x 32 x 13 mm</li>
+      <ul><li>Voltaje: 5 V<li>Matriz de LED: 32 x 8<li>Corriente: 320 mA (máximo 2A)<li>Color del LED: Rojo<li>Tamaño de la matriz: 32 x 8 Leds<li>Cable: 20 cm (aproximadamente<li>Dimensiones: 128 x 32 x 13 mm<li>
       </ul>
     </td>
     <td>2</td>
@@ -88,7 +84,21 @@
       </td>
     <td>1</td>
       </tr> 
-  <tr>
+    tr>
+   <td>Sensor de temperatura y humedad </td>
+    <td><img src="https://user-images.githubusercontent.com/96089377/184009579-dc502fef-4cfd-442a-89f4-250e61bfba19.jpg" width="100" alt="Sensor de temperatura y humedad" width="100"/> 
+    </td>
+    <td>
+      <ul>
+        <li>Voltaje de funcionamiento: 3.5V a 5.5V</li>
+        <li>Corriente de funcionamiento: 0,3 mA (medición) 60 uA (en espera)</li>
+        <li>Rango de humedad: 20% a 90%</li>
+        <li>Rango de temperatura: 0 ° C a 50 ° C</li> 
+      </ul>
+      </td>
+    <td>1</td>
+     </tr>
+     <tr>
    <td>Lector QR </td>
     <td><img src="https://user-images.githubusercontent.com/8560750/166768412-b0cddffc-1a08-49cf-a9d5-4d46b3501678.jpg" width="100" alt="Lector de código QR" width="100"/> 
     </td>
@@ -96,16 +106,14 @@
       <ul>
         <li>Dispositivo móvil con sistema operativo Android 8.0 o superior.</li>
         <li>App para lectura de QR.</li>
-        <li>Observar detalles y características de producto.</li>
+        <li>Observar detalles y características de producto.</li> 
       </ul>
       </td>
-    <td>2</td>
+    <td>1</td>
      </tr>
-  <tr>
-
-
      
-</table>
+    </table>
+    
 
 #### Requerimientos
 |No.  |Requerimiento  |
@@ -113,7 +121,7 @@
 | 1   |El sistema deberá permitir dar la bienvenida al cliente o visitante a través de lectura de rostro, si la persona es un cliente mediante un Display dará la bienvenida. A su vez, el empleado recibirá una notificación a su dispositivo móvil para su atención.               |
 | 2   |Mediante lectura de código QR a través de dispositivo móvil la persona podrá observar la descripción del producto. |
 | 3   |La persona podrá solicitar la atención del empleado a través de su dispositivo móvil ya sea para muestra del producto o venta del mismo.|
-| 4   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento. Número de visitantes que realizaron compra. 
+| 4   |El gerente o dueño del negocio podrá ver estadísticas como: Número de visitantes que llegaron al establecimiento y número de visitantes que realizaron compra. 
 | 5   |Control de los espacios de la tienda, mediante luces y aires acondicionados para que el cliente se sienta cómodo en la estancia dentro de la tienda. |
 
 #### Diagrama inicial
