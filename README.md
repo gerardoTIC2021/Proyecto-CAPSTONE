@@ -71,7 +71,7 @@
   <tr>
     <td>Módulo Relay 8CH 5VDC</td>
     <td>
-    <img src="https://user-images.githubusercontent.com/96089377/183992788-099d6bd9-e0dd-47a3-8463-7c5eb33feadc.jpg" width="100" alt="Módulo Relay 8CH 5VDC" width="100"/>
+    <img src="https://user-images.githubusercontent.com/96089377/183992788-099d6bd9-e0dd-47a3-8463-7c5eb33feadc.jpg" alt="Módulo Relay 8CH 5VDC" width="100"/>
     </td>
     <td>
       <ul>
@@ -84,9 +84,9 @@
       </td>
     <td>1</td>
       </tr> 
-    tr>
+    <tr>
    <td>Sensor de temperatura y humedad </td>
-    <td><img src="https://user-images.githubusercontent.com/96089377/184009579-dc502fef-4cfd-442a-89f4-250e61bfba19.jpg" width="100" alt="Sensor de temperatura y humedad" width="100"/> 
+    <td><img src="https://user-images.githubusercontent.com/96089377/184009579-dc502fef-4cfd-442a-89f4-250e61bfba19.jpg" alt="Sensor de temperatura y humedad" width="100"/> 
     </td>
     <td>
       <ul>
@@ -111,10 +111,7 @@
       </td>
     <td>1</td>
      </tr>
-      </tr>
-      </tr> 
-      </tr>
-    </table>
+          </table>
     
 
 #### Requerimientos
